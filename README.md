@@ -1,5 +1,7 @@
 ## CLIP + SAM
 
+[SAM Pretrained Model 다운로드](https://github.com/facebookresearch/segment-anything)
+
 * 파괴 조사시 엽면적 측정을 조금 더 편하게 하기 위한 방안을 생각하다 떠올린 아이디어.
 * plantCV는 RGB값을 기반으로 초록색 부분의 면적을 산출하기 때문에 다소 부정확하였음.
 * CLIP + SAM은 거의 완벽하게 segmentation이 가능했음. 
