@@ -6,7 +6,8 @@
 * plantCV는 RGB값을 기반으로 초록색 부분의 면적을 산출하기 때문에 다소 부정확하였음.
 * CLIP + SAM은 거의 완벽하게 segmentation이 가능했음. 
 * CLIP + SAM은 다소 무거운 모델로 CUDA가 없을 경우 산출 속도가 다소 오래걸림. Jetson에 임베딩할 수 있는지는 추후 테스트해봐야 함.
-* 임베딩이 안될 경우 웹 또는 GUI로 구현할 예정
+* CLIP + SAM을 Jetson Nano에 임베딩한 결과 실행 시간이 30분 넘게 소요됨. (VIT_B, RN50)
+* FastSAM 등 좀 더 작은 모델 사용을 고려해야 할 듯.
 
 <br>
 
